@@ -1,0 +1,71 @@
+.anime-body {
+  background-color: rgba(0, 0, 0 , .6);
+  height: 700px;
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px;
+  align-items: center;
+  justify-items: center;
+
+}
+
+@media screen and (max-width:700px) {
+ .anime-body {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 345px;
+  height: 100%;
+ }
+};
+
+/* Naruto Card */
+@media (max-width:700px) {
+  .naruto-card {
+    height: 300px;
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+}
+
+.naruto-card {
+  height: 300px;
+  width: 250px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+
+
+.naruto-card img {
+  background-size: cover;
+  height: 200px;
+  width: 250px;
+  object-fit: cover;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+
+.naruto-flex {
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0;
+ position: relative;
+ padding: 10px;
+}
+
+.naruto-flex-child > h3, p {
+  margin: 0;
+}
+
+.naruto-flex > a {
+  padding-right: 5px;
+}

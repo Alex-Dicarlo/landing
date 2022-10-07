@@ -1,0 +1,76 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: black;
+  opacity: .6;
+  margin: 20px;
+  border-radius: 10px;
+  font-family: 'Cinzel', serif;
+  position: relative;
+}
+
+.contact-btn {
+  position: absolute;
+  margin: 4px;
+  padding: 5px;
+  right: 30px
+}
+
+@media screen and (max-width: 900px) {
+  .contact-btn {
+   display: none;
+  }
+}
+
+.btn-child-one {
+  font-size: 20px;
+  padding: 10px;
+  margin: 7px;
+  text-align: center;
+  border: 1px solid white ;
+  border-radius: 5px;
+}
+
+.btn-child-one a {
+  color: white;
+}
+
+.btn-child-two {
+  font-size: 20px;
+  padding: 10px;
+  margin: 7px;
+  border: 1px solid white ;
+  border-radius: 5px;
+}
+
+.btn-child-two a {
+  color: white;
+}
+
+
+
+.banner-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.banner-flex-container > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.banner-flex-container-child {
+  color: white;
+  padding-left: 20px;
+  font-family: 'Cinzel', serif;
+}
+
+.banner-flex-container-child > h2 {
+  margin: 2px;
+}

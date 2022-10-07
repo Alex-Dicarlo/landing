@@ -1,0 +1,44 @@
+.contact-me {
+  height: 150px;
+  background-color: rgba(0, 0 , 0 , 0.6);
+  width: 1100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .contact-me {
+    width: 445px;
+  }
+}
+
+.contact-me h2 {
+  color: white;
+  padding-top: 15px;
+}
+
+.list-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-inline li  {
+  font-size: 20px;
+  padding: 0px 15px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.list-inline li > a {
+  font-size: 20px;
+  color: white;
+  transition: 0.5s;
+}
+
+.list-inline li > a:hover {
+  font-size: 30px;
+}

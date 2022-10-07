@@ -1,0 +1,13 @@
+.btn {
+  background-color: red;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: red;
+  border: 1px solid red
+}
